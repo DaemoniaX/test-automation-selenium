@@ -30,7 +30,7 @@ La suite de tests couvre l'intégralité des fonctionnalités clés :
 
 ## Installation
 
-### 1. Prérequis
+### 1. Requirements
 * Python 
 * Google Chrome 
 
