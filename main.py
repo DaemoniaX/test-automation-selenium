@@ -69,7 +69,7 @@ def test_home(driver):
     wait = WebDriverWait(driver, 10)
     
     # Titre
-    assert "Finance App" in driver.title, "pas de titre"
+    assert "Portfolio" in driver.title, "pas de titre"
     
     # NavBar
     nav = wait.until(EC.presence_of_element_located((By.TAG_NAME, "nav")))
@@ -180,3 +180,4 @@ def test_external_link(driver):
     
     driver.close()
     driver.switch_to.window(original_window)
+
