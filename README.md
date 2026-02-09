@@ -10,7 +10,7 @@ Automation of tests using selenium python pytest for my react portfolio.
 
 ## Covered Scenarios 
 
-La suite de tests couvre l'intégralité des fonctionnalités clés :
+The tests cover :
 
 1.  **home Test :** Homepage, navbar, title
 2.  **Navigation (Routing) :** (`/CV`, `/graphs`, `/kiduland`...) `pytest.parametrize`.
@@ -34,7 +34,7 @@ La suite de tests couvre l'intégralité des fonctionnalités clés :
 * Python 
 * Google Chrome 
 
-### 2. Installation des dépendances
+### 2. Dependencies
 In the CMD inside of the project folder :
 
 ```bash
